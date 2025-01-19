@@ -58,11 +58,11 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: "Podcastr - AI Podcast Platform",
-    desc: "Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.",
+    title: "Audify-AI: AI Podcast Platform",
+    desc: "Audify AI is a cutting-edge podcast platform featuring a secure authentication system, a modern homepage showcasing trending podcasts, and a seamless listening experience with a sticky podcast player",
     subdesc:
-      "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
-    href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
+      "Built as a unique Software-as-a-Service app with Next.js, TypeScript, Convex, OpenAI, Clerk, Shadcn, TailwindCSS",
+    href: "https://audify-ai.vercel.app/",
     texture: "/textures/project/project1.mp4",
     logo: "/assets/project-logo1.png",
     logoStyle: {
@@ -87,56 +87,51 @@ export const myProjects = [
         name: "TypeScript",
         path: "/assets/typescript.png",
       },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
     ],
   },
+  // {
+  //   title: "LiveDoc - Real-Time Google Docs Clone",
+  //   desc: "LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
+  //   subdesc:
+  //     "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
+  //   href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
+  //   texture: "/textures/project/project2.mp4",
+  //   logo: "/assets/project-logo2.png",
+  //   logoStyle: {
+  //     backgroundColor: "#13202F",
+  //     border: "0.2px solid #17293E",
+  //     boxShadow: "0px 0px 60px 0px #2F6DB54D",
+  //   },
+  //   spotlight: "/assets/spotlight2.png",
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: "React.js",
+  //       path: "/assets/react.svg",
+  //     },
+  //     {
+  //       id: 2,
+  //       name: "TailwindCSS",
+  //       path: "assets/tailwindcss.png",
+  //     },
+  //     {
+  //       id: 3,
+  //       name: "TypeScript",
+  //       path: "/assets/typescript.png",
+  //     },
+  //     {
+  //       id: 4,
+  //       name: "Framer Motion",
+  //       path: "/assets/framer.png",
+  //     },
+  //   ],
+  // },
   {
-    title: "LiveDoc - Real-Time Google Docs Clone",
-    desc: "LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
+    title: "SmartCare: A HealthCare Management System",
+    desc: "A healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors, featuring administrative tools for scheduling, confirming, and canceling appointments, along with SMS notifications, all built using Next.js",
     subdesc:
-      "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
-    href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
-    texture: "/textures/project/project2.mp4",
-    logo: "/assets/project-logo2.png",
-    logoStyle: {
-      backgroundColor: "#13202F",
-      border: "0.2px solid #17293E",
-      boxShadow: "0px 0px 60px 0px #2F6DB54D",
-    },
-    spotlight: "/assets/spotlight2.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg",
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png",
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
-    ],
-  },
-  {
-    title: "CarePulse - Health Management System",
-    desc: "An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.",
-    subdesc:
-      "With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.",
-    href: "https://www.youtube.com/watch?v=lEflo_sc82g",
+      "With a focus on efficiency, SmartCare integrates complex forms and SMS notifications, by using Next.js, Appwrite, Typescript, TailwindCSS, Shadcn, Twilio that enhance operational workflows.",
+    href: "https://smartcare-ten.vercel.app",
     texture: "/textures/project/project3.mp4",
     logo: "/assets/project-logo3.png",
     logoStyle: {
@@ -163,19 +158,14 @@ export const myProjects = [
         name: "TypeScript",
         path: "/assets/typescript.png",
       },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
     ],
   },
   {
-    title: "Horizon - Online Banking Platform",
-    desc: "Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.",
+    title: "Finexus: Banking App Platform",
+    desc: "A secure banking platform with data visualisation, API integrations, and responsive design.",
     subdesc:
-      "Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
-    href: "https://www.youtube.com/watch?v=PuOVqP_cjkE",
+      "Built with Next.js, TypeScript, Appwrite, Plaid, Dwolla, React Hook Form, Zod, TailwindCSS, Chart.js, Shadcn, Finexus ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
+    href: "https://finexus.vercel.app",
     texture: "/textures/project/project4.mp4",
     logo: "/assets/project-logo4.png",
     logoStyle: {
@@ -200,19 +190,14 @@ export const myProjects = [
         name: "TypeScript",
         path: "/assets/typescript.png",
       },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
-      },
     ],
   },
   {
-    title: "Imaginify - AI Photo Manipulation App",
-    desc: "Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.",
+    title: "Artifinity: AI-Powered Image SaaS Platform",
+    desc: "Artifinity is a cutting-edge image SaaS platform that leverages AI to deliver high-quality and personalized images for your business needs.",
     subdesc:
-      "Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.",
-    href: "https://www.youtube.com/watch?v=Ahwoks_dawU",
+      "Built with Next.js, TypeScript, MongoDB, Clerk, Cloudinary, Stripe, Shadcn, TailwindCSS, Artifinity combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.",
+    href: "https://artifinity.vercel.app",
     texture: "/textures/project/project5.mp4",
     logo: "/assets/project-logo5.png",
     logoStyle: {
@@ -236,11 +221,6 @@ export const myProjects = [
         id: 3,
         name: "TypeScript",
         path: "/assets/typescript.png",
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png",
       },
     ],
   },
