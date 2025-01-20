@@ -57,7 +57,9 @@ const Experience = () => {
 
                   <div className="sm:p-5 px-2 5 py-5">
                     <p className="font-bold text-white-800">{work.name}</p>
-                    <p className="text-sm mb-5">{work.pos}</p>
+                    <p className="text-sm mb-5">
+                      {work.pos} -- {work.duration}
+                    </p>
                     <div className="group-hover:text-white transition ease ease-in-out duration-500">
                       {work.title}
                     </div>
