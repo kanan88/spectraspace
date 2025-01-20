@@ -11,6 +11,7 @@ const Clients = () => {
             <div>
               <p className="text-white font-light">{review.review}</p>
             </div>
+
             <div className="client-content">
               <div className="flex gap-3">
                 <img
